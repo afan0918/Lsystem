@@ -29,7 +29,7 @@ public class Plant extends PApplet {
     public void Lsystem() {
         for (int i = 0; i < word.length(); i += 1) {
             if (word.charAt(i) == 'F') {
-                theword += "FF+[+F-Fdragon]-[+F-F]";
+                theword += "FF+[+F-F]-[+F-F]";
             } else {
                 theword += word.charAt(i);
             }
